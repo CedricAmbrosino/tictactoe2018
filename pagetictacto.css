@@ -1,0 +1,85 @@
+html{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	padding:0px;
+	margin:0px;
+	background-color:  #005;
+}
+
+/*************Nav Retour portfolio********************/
+#retourporfolio{
+    height: 80px;
+    background-color: #aaa; 
+    padding-left: 20px; 
+    display: flex;
+    align-items: center;
+}
+
+#retourporfolio a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fab338;
+    text-decoration: none;
+    color:  #24231F;
+    border-radius: 5px;
+}
+
+#retourporfolio a p{
+	margin:0;
+}	
+
+/*************Fin Nav Retour portfolio********************/
+
+
+#main{
+	width:800px;
+	margin:20px auto 20px auto;	
+	padding-bottom:20px;
+	border-radius:10px;
+}
+
+header{
+	background-color: #ccc;
+	border: 2px solid #ccc;
+}
+
+h1{
+	text-align: center;
+}
+
+/*jeu*/
+#blocPrincipal{
+	width:276px;
+	height:276px;
+	margin:40px auto 0px auto;
+	background-color: #ccc;
+	display:flex;
+	flex-wrap:wrap;	
+}
+
+.blocs{
+	width:90px;
+	height:90px;
+	border:1px solid black;
+}
+
+.blocs p{
+	font-size:90px;
+	line-height:90px;
+	text-align:center;
+	margin-top:0px;
+}
+
+.noSelect{
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
